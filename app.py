@@ -7,6 +7,7 @@ app = Flask(__name__)
 def resume():
     res = """
 RYAN MCKENZIE
+rmckenzieswe@gmail.com
 =====================
 
 Education
