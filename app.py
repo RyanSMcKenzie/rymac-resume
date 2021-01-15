@@ -1,6 +1,7 @@
 from flask import Flask
 import os
 
+# Deploy curl https://rymac-resume.herokuapp.com/
 app = Flask(__name__)
 
 @app.route('/')
@@ -36,7 +37,7 @@ Link: http://github.com/RyanSMcKenzie/DungeonFlask
 - Containerized with Docker and continuously deployed on Google Cloud Run
 
 A Shape's Journey - Terminal Java/Maven RPG
-Link: http://github.com/RyanSMcKenzie/A Shapes Journey
+Link: http://github.com/RyanSMcKenzie/A_Shapes_Journey
 - Object-oriented Java terminal RPG
 - Uses Maven for build and dependency management
 - JSON saving and loading of player character data
