@@ -73,7 +73,7 @@ def assist():
     Visit '/education' for more on my education
 
     More about my experience?
-    Visit '/experience' for more on my experience
+    Visit '/experience' for more on my experience\n\n
     
     """
     return ret
@@ -100,7 +100,7 @@ might be able to contribute to your company and learn some awesome things.
 For contact details, please see the resume page on the '/' route. Thanks!
 
 
-Ryan
+Ryan\n\n
     """
     return ret
 
@@ -120,7 +120,7 @@ Dates: January 2020 - August 2021
 GPA: 4.0
 Details: After Purdue, I joined the OSU Post-Bacc CS program. The core program
 primarily focuses on software engineering and general CS fundamentals, and I am
-taking network and cloud development electives.
+taking network and cloud development electives.\n\n
 
     """
     return ret
@@ -152,9 +152,11 @@ which I supervised and helped with. Office hours involved me helping with long
 projects students were assigned over multiple weeks, which often were small
 games with GUIs. During this time, I was also asked to help design assignments
 and exams for a new introductory data science class which made use of scipy, 
-pandas, numpy, and the like.
+pandas, numpy, and the like.\n\n
 
     """
+    return ret
+    
 port = int(os.environ.get('PORT', 8080))
 if __name__ == '__main__':
     # Run app
